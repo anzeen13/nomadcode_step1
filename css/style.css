@@ -15,3 +15,37 @@ body{
     color: white;
     text-align: center;
 }
+#quote{
+    width: 600px;
+    margin: auto;
+    border: 1px solid none;
+}
+#todo-form{
+    height: 30px;
+}
+.todoForm{
+    width: 200px;
+    height: 18px;
+    font-size: 14px;
+    margin-top: 6px;
+}
+.loginForm{
+    width: 142px;
+}
+#todo-list{
+    padding-inline-start: 0px;
+}
+.button{
+    background-color: white;
+    color: red;
+    font-size: 3px;
+    font-weight: bold;
+    padding: 1px;
+    border: none;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+}
