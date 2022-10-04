@@ -49,3 +49,8 @@ body{
     background-color: red;
     color: white;
 }
+#todo-list{
+    text-align: left;
+    padding-left: 250px;
+    list-style-type: none;
+}

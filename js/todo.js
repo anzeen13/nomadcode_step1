@@ -35,7 +35,7 @@ function handleToDoSubmit(event){
     const newTodo = toDoInput.value; // input의 현재 value를 새로운 변수(newTodo)에 복사하는 것
     toDoInput.value = "";
     const newTodoObj = {
-        text: newTodo,
+        text: "  " + newTodo,
         id: Date.now(),
     };
     toDos.push(newTodoObj);
