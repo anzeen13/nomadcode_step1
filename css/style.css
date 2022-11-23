@@ -16,29 +16,31 @@ body{
     text-align: center;
 }
 #quote{
-    width: 600px;
-    margin: auto;
+    width: 50%;
+    margin: 0 auto;
     border: 1px solid none;
 }
-#todo-form{
-    height: 30px;
-}
 .todoForm{
-    width: 200px;
-    height: 18px;
-    font-size: 14px;
-    margin-top: 6px;
+    width: 27%;
+    height: 100%;
+    font-size: 80%;
+    border-radius: 7px;
+    text-align: center;
 }
 .loginForm{
     width: 142px;
 }
 #todo-list{
-    padding-inline-start: 0px;
+    display: flex;
+    padding-inline-start: 43%;
+    list-style-type: none;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .button{
     background-color: white;
     color: red;
-    font-size: 3px;
+    font-size: 3%;
     font-weight: bold;
     padding: 1px;
     border: none;
@@ -48,9 +50,4 @@ body{
 .button:hover{
     background-color: red;
     color: white;
-}
-#todo-list{
-    text-align: left;
-    padding-left: 250px;
-    list-style-type: none;
 }
